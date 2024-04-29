@@ -1,0 +1,54 @@
+body{
+  background: #272727;
+  color: black;
+}
+
+.container{
+  background-color: #272727;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 170px;
+}
+
+.buttons{
+  margin-top: 10px;
+  display: flex;
+}
+
+button{
+  margin-right: 20px;
+}
+
+.alg-specs{
+  color: white;
+  font-size: 40px;
+}
+
+#algorithm{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#time-complexity-worst{
+  color: white;
+  font-size: 30px;
+}
+
+#time-complexity-average{
+  color: white;
+  font-size: 30px;
+}
+
+#time-complexity-best{
+  color: white;
+  font-size: 30px;
+}
+
+#space-complexity{
+  color: white;
+  font-size: 30px;
+}

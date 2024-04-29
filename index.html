@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualisation</title>
+    <script type="text/javascript"
+        src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+      </script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="setup()">
+    <div class="controls">
+    </div>
+
+    <div id="algorithm" class="alg-specs"></div>
+    <div id="swaps" class="alg-specs"></div>
+    <div id="comparisons" class="alg-specs"></div>
+    <div id="time-complexity-best" class="alg-specs"></div>
+    <div id="time-complexity-average" class="alg-specs"></div>
+    <div id="time-complexity-worst" class="alg-specs"></div>
+    <div id="space-complexity" class="alg-specs"></div>
+    <div id="space-complexity" class="alg-specs">Items: 1500</div>
+
+    <div class="container">
+      
+    </div>
+    <div class="buttons">
+        <button onclick="BubbleSortButtonClick()">Bubble Sort</button>
+        <button onclick="QuickSortButtonClick()">Quick Sort</button>
+        <button onclick="MergeSortButtonClick()">Merge Sort</button>
+        <button onclick="SelectionSortButtonClick()">Selection Sort</button>
+        <button onclick="InsertionSortButtonClick()">Insertion Sort</button>
+        <button onclick="HeapSortButtonClick()">Heap Sort</button>
+        <button onclick="CountSortButtonClick()">Count Sort</button>
+        <button onclick="BucketSortButtonClick()">Bucket Sort</button>
+        <button onclick="CombSortButtonClick()">Comb Sort</button>
+        <button onclick="ShellSortButtonClick()">Shell Sort</button>
+        <button onclick="GnomeSortButtonClick()">Gnome Sort</button>
+        <button onclick="CocktailShakerSortButtonClick()">Cocktail Shaker Sort</button>
+        <button onclick="TimSortButtonClick()">Tim Sort</button>
+        <button onclick="OddEvenSortButtonClick()">Odd Even Sort</button>
+        <button onclick="resetButtonClick()">Reset</button>
+    </div>
+</body>
+</html>
