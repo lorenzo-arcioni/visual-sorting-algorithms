@@ -549,7 +549,7 @@ async function bucketSort(arr) {
         for (let j = 0; j < buckets[i].length; j++) {
             if (!continueSorting) return;
             document.getElementById("comparisons").innerHTML = "Comparisons: " + ++comparisons;
-            document.getElementById("swaps").innerHTML = "swaps: " + ++swaps;
+            document.getElementById("swaps").innerHTML = "Swaps: " + ++swaps;
             arr[index++] = buckets[i][j];
             SortBuiltArray(values); // Update UI after each element is placed
             await waitforme(0); // Wait for a short time for visualization
